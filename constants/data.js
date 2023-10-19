@@ -2,25 +2,25 @@ const userData = {
   githubUsername: "biishtsanjay",
   name: "Sanjay Bisht",
   designation: "Developer",
-  avatarUrl: "/avatar.jpg",
+  avatarUrl: "/images/avatar.jpg",
   email: "sanjayb0407@gmail.com",
   phone: "+91 9116484395",
   address: "Bengaluru, Karnataka, India.",
   projects: [
-    // {
-    //   // title: "Test",
-    //   // link: "https://test.com",
-    //   // imgUrl: "/test.jpg",
-    // },
-    // {
-    //   // title: "Test",
-    //   // link: "https://test.com",
-    //   // imgUrl: "/test.jpg",
-    // },
+    {
+      title: "Video Streaming App",
+      link: "https://fullscaleyoutube.netlify.app/",
+      imgUrl: "/images/youtube_img.png",
+    },
+    {
+      title: "My Portfolio",
+      link: "https://sanjaybishtnextjsportfolio.netlify.app/",
+      imgUrl: "/images/portfolio_img.png",
+    },
   ],
   about: {
     title:
-      "I'm a software developer that loves building products and web applications that impact millions of lives",
+      "I'm a software developer that loves building products and web applications that impact millions of lives.",
     description: [
       `HELLO, I'm a passionate frontend developer with two years of experience in crafting web applications. My journey into the world of web development has been an exhilarating ride, where I've had the privilege to bring digital ideas to life.`,
       `As a frontend developer, I specialize in translating creative designs into interactive and user-friendly websites. My skills encompass HTML, CSS, JavaScript, React, Storybook, Jest, RTL, etc., and I take pride in ensuring that every project I work on is responsive, cross-browser compatible, and optimized for peak performance.`,
@@ -37,7 +37,7 @@ const userData = {
       company: "Locad",
       year: "2022 - Present",
       companyLink: "https://golocad.com/",
-      // desc: "Contributed to our flagship product - Panna - which is an AI powered candidate interviewing product.",
+      // desc: "",
       desc: [
         `Frontend Developer at Locad for two years, proficient in building user-centric web applications.`,
         ` Expertise in performance optimization, accessibility, and contemporary design principles for exceptional digital experiences.`,
@@ -49,7 +49,7 @@ const userData = {
       company: "Open Sense Labs, (Remote)",
       year: "2021",
       companyLink: "https://opensenselabs.com/",
-      // desc: "Developed pothole detection system with OpenCV and computer vision, detects potholes on roads and informs the driver.",
+      // desc: "",
       desc: "Change Here",
     },
     {
@@ -64,11 +64,10 @@ const userData = {
       company: "Beersheba Sr. Sec. Institute, Haldwani (Nainital).",
       year: "2016",
       companyLink: "http://www.beershebaschool.in/school/Haldwani",
-      // desc: "Subjects being PCM - I barely survived with 75% marks aggregate.",
+      // desc: "",
     },
   ],
-  resumeUrl:
-    "https://drive.google.com/file/d/1lUm-qgxfaLmTggr12j1X4Sny-ea4O-mg/view?usp=sharing",
+  resumeUrl:"https://drive.google.com/file/d/1YOXpKerG_2NQfW4tEqASRbJ5w55p8wdi/view?usp=share_link",
   socialLinks: {
     instagram: "https://www.instagram.com/biishtplease/",
     twitter: "https://twitter.com/biishtsanjay",
