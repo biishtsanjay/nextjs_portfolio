@@ -133,11 +133,28 @@ export default function AboutMe() {
               Tech Stack
             </h1>
             <div className="flex flex-row flex-wrap mt-4">
-              {techStack.map((tech) => (
-                <span className="mr-6 mb-2 text-xl underline underline-offset-4 hover:bg-red-500">
-                  {tech}
-                </span>
-              ))}
+              {techStack.map((tech) => {
+                const technology = Object.keys(tech)[0];
+                return (
+                  <div key={tech} className="my-3">
+                    <span className="mr-6 mb-2 text-xl font-bold  text-red-500">
+                      {technology}:
+                    </span>
+                    <div className="flex flex-row flex-wrap">
+                      {tech[technology].map((item) => {
+                        return (
+                          <span
+                            key={item}
+                            className="mr-6 mb-2 text-xl underline underline-offset-4 hover:bg-red-500"
+                          >
+                            {item}
+                          </span>
+                        );
+                      })}
+                    </div>
+                  </div>
+                );
+              })}
             </div>
           </div>
         </div>
